@@ -6,4 +6,4 @@
 необходимые для этого файлы и скрипты, а также описание: что происходит и как 
 этим пользоваться  
 ### Примеры
-1) [GoblinPriorityQueue](google.com)
+1) [GoblinPriorityQueue](https://github.com/SmartOven/Test-Automation/tree/main/GoblinPriorityQueue)

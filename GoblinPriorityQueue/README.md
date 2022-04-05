@@ -1,7 +1,7 @@
 # GoblinPriorityQueue
 Решение задачи о Гоблинской приоритетной очереди
 ## Задание
-[task.md](google.com)
+[task.md](https://github.com/SmartOven/Test-Automation/blob/main/GoblinPriorityQueue/task.md)
 
 ## Как работает тестирующий скрипт?
 1) Запускается генератор тестов, который генерирует случайный корректный тест для задачи
@@ -13,14 +13,14 @@
 
 ## Список файлов
 ### Тестируемое решение
-[solution.cpp](google.com)
+[solution.cpp](https://github.com/SmartOven/Test-Automation/blob/main/GoblinPriorityQueue/solution.cpp)
 
 ### Заведомо правильное решение
-[solution.py](google.com)
+[solution.py](https://github.com/SmartOven/Test-Automation/blob/main/GoblinPriorityQueue/solution.py)
 
 ### Генератор тестов
-[test_generator.py](google.com)
+[test_generator.py](https://github.com/SmartOven/Test-Automation/blob/main/GoblinPriorityQueue/test_generator.py)
 
 ### bash-скрипт
-[tester.sh](google.com)  
+[tester.sh](https://github.com/SmartOven/Test-Automation/blob/main/GoblinPriorityQueue/tester.sh)  
 Сравнивает выводы тестируемого и заведомо правильного решения
