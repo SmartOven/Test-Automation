@@ -8,6 +8,7 @@ result="true"
 
 # Build solutions if needed
 g++ -o my.out soluition.cpp
+g++ -o right.out right_soluition.cpp
 
 while [ $result = "true" ]
   do
@@ -15,7 +16,7 @@ while [ $result = "true" ]
     python3 test_generator.py > testcase.txt
 
     # Test on right solution
-    cat testcase.txt | python3 right_solution.py > right_out.txt
+    cat testcase.txt | ./right.out > right_out.txt
 
     # Test on my solution
     cat testcase.txt | ./my.out > my_out.txt
