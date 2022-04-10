@@ -10,10 +10,20 @@ result="true"
 g++ -o my.out solution.cpp
 g++ -o right.out right_solution.cpp
 
+# Pre-made tests counter
+tests=$#
+
 while [ $result = "true" ]
   do
-    # Generate test
-    python3 test_generator.py > testcase.txt
+    # Testing on pre-made tests
+    if [ $tests -gt 1 ]; then
+      cat $1 > testcase.txt
+      shift 1
+      tests=`expr $tests - 1`
+    else
+      # Generate test
+      python3 test_generator.py > testcase.txt
+    fi
 
     # Test on right solution
     cat testcase.txt | ./right.out > right_out.txt
